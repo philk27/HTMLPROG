@@ -4,39 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzariffic - Products</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/images/pizzarifficicon.jpg" type="image/jpeg">
   </head>
   <body>
-    <header>
-      <img src="images/banner3.jpg" alt="Pizzariffic Header" />
+    <header style="background-image: url('assets/images/pizzarificbanner3.jpg'); background-size: cover;">
+      <nav>
+        <ul style="list-style-type: none; display: flex; justify-content: center; padding: 0;">
+          <li style="margin: 0 15px;"><a href="index.html">Home</a></li>
+          <li style="margin: 0 15px;"><a href="product.html">Products</a></li>
+          <li style="margin: 0 15px;"><a href="about.html">About Us</a></li>
+          <li style="margin: 0 15px;"><a href="contact.html">Contact Us</a></li>
+          <li style="margin: 0 15px;"><a href="sitemap.html">Site Map</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="product.html">Products</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="sitemap.html">Site Map</a></li>
-      </ul>
-    </nav>
     <main>
       <section>
         <h1>Our Products</h1>
+        <h2>Classic Pizzas</h2>
         <div class="product">
-          <img src="images/pizza_types/cheese.jpg" alt="Cheese Pizza" />
-          <p>
-            Cheese Pizza - A classic delight with our signature cheese blend.
-          </p>
+          <img src="assets/images/cheesepizzapng.png" alt="Cheese Pizza" />
+          <p>Cheese Pizza - A classic delight with our signature cheese blend.</p>
+          <p class="price">$10.99</p>
         </div>
         <div class="product">
-          <img src="images/pizza_types/peperoni.jpg" alt="Pepperoni Pizza" />
+          <img src="assets/images/pperoni.png" alt="Pepperoni Pizza" />
           <p>Pepperoni Pizza - Spicy pepperoni on a bed of melted cheese.</p>
+          <p class="price">$12.99</p>
         </div>
-        <!-- Add more products similarly -->
+        <div class="product">
+          <img src="assets/images/Hawian Pizza.jpg" alt="Hawaiian Pizza" />
+          <p>Hawaiian Pizza - A tropical mix of ham and pineapple.</p>
+          <p class="price">$12.49</p>
+        </div>
+        <div class="product">
+          <img src="assets/images/suprem.jpg" alt="Supreme Pizza" />
+          <p>Supreme Pizza - A hearty combination of meats, vegetables, and cheese.</p>
+          <p class="price">$13.99</p>
+        </div>
+        <h2>Specialty Pizzas</h2>
+        <div class="product">
+          <img src="assets/images/Vietnam pizza.jpg" alt="Vietnam Pizza" />
+          <p>Vietnam Pizza - Exotic flavors with a mix of Vietnamese ingredients.</p>
+          <p class="price">$14.99</p>
+        </div>
+        <div class="product">
+          <img src="assets/images/Chicago.jpg" alt="Chicago Deep Dish" />
+          <p>Chicago Deep Dish - Thick crust, rich in cheese and tomato sauce.</p>
+          <p class="price">$15.99</p>
+        </div>
+        <div class="product">
+          <img src="assets/images/NY pizza.jpg" alt="New York Style Pizza" />
+          <p>New York Style Pizza - Thin crust with a crispy edge, loaded with toppings.</p>
+          <p class="price">$13.49</p>
+        </div>
+        <div class="product">
+          <img src="assets/images/genuine itlaian pizza.jpg" alt="Margherita Pizza" />
+          <p>Margherita Pizza - Classic Italian pizza with fresh tomatoes and basil.</p>
+          <p class="price">$11.49</p>
+        </div>
+      </section>
+      <section class="promos">
+        <h2>Special Offers</h2>
+        <div class="promo">
+          <img src="assets/images/promohandpizza.jpg" alt="Handcrafted Pizza" />
+          <p>Enjoy our handcrafted pizzas with special discounts this weekend!</p>
+        </div>
+        <div class="promo">
+          <img src="assets/images/promopepperonipizza.jpg" alt="Pepperoni Pizza" />
+          <p>Get a free drink with every Pepperoni Pizza order!</p>
+        </div>
       </section>
     </main>
-    <footer>
-      <img src="images/banner1.jpg" alt="Pizzariffic Footer" />
+    <footer style="background-image: url('assets/images/pizzarificbanner1.jpg'); background-size: cover;">
       <p>&copy; 2024 Pizzariffic. All rights reserved.</p>
     </footer>
   </body>
