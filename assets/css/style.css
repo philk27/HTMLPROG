@@ -1,50 +1,49 @@
-/* styles.css */
+/* General site-wide styling */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }
 
+/* Header and navigation styling */
 header {
-  background-color: #ffcc00;
-  padding: 10px 0;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-image: url('../images/pizzarificbanner3.jpg'); /* Ensure correct path */
+    background-size: cover;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background for better readability */
 }
 
 nav ul li {
-  margin: 0 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #cc0000;
+    text-decoration: underline;
 }
 
-main {
-  padding: 20px;
-}
-
-.welcome h1 {
-  color: #cc0000;
-}
-
+/* Footer styling */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    background-color: #333;
+    background-image: url('../images/pizzarificbanner1.jpg'); /* Ensure correct path */
+    background-size: cover;
 }
